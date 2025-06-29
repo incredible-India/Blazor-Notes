@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\New folder (2)\\ServerModel\\ServerModel\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ServerModel.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ServerModel.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\New folder (2)\\ServerModel\\ServerModel\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\New folder (2)\\ServerModel\\ServerModel\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\New folder (2)\\ServerModel\\ServerModel\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\New folder (2)\\ServerModel\\ServerModel\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ServerModel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ServerModel.props",
+      "PackagePath": "build\\ServerModel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ServerModel.props",
+      "PackagePath": "buildMultiTargeting\\ServerModel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ServerModel.props",
+      "PackagePath": "buildTransitive\\ServerModel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
