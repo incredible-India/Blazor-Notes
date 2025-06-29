@@ -1,0 +1,37 @@
+﻿<h3>Quiz Compoents</h3>
+
+<h1>Question :  @Question </h1>
+
+<p>Options</p>
+
+<div class="container">
+    
+    <button class="btn btn-success" @onclick="ForA">@OptionA</button>
+    <button class="btn btn-success" @onclick="ForB">@OptionB</button>
+    <button class="btn btn-warning" @onclick='()=>VerifyAnswerFromPArent("correct")'>Verify You Answer</button>
+</div>
+
+
+@code {
+    
+     [Parameter]
+    public string Question { get; set; }
+    [Parameter]
+    public string OptionA { get; set; }
+    [Parameter]
+    public string  OptionB { get; set; }
+    [Parameter]
+    public EventCallback ForA { get; set; }
+    [Parameter]
+    public EventCallback ForB { get; set; }
+    
+    [Parameter]
+    public EventCallback<string> VerifyTheAnswer { get; set; }
+
+    public void VerifyAnswerFromPArent(string selectedAnswer)
+    {
+        VerifyTheAnswer.InvokeAsync(selectedAnswer);
+    }
+
+
+}

@@ -1,0 +1,19 @@
+﻿@page "/Calculator"
+<h3>Calculator</h3>
+<input @bind="x"/>
+<input @bind="y"/>
+<input @bind-value="z"/>
+<button class="btn btn-success" @onclick="Add">Add</button>
+<input type="text" @bind-value="email" @bind-value:event="oninput"/>
+<p>@email</p>
+@code {
+   int x { get; set; }
+   int y { get; set; }
+   private string email { get; set; }
+   int z { get; set; }
+
+   void Add()
+   {
+      z = x + y;
+   }
+}
